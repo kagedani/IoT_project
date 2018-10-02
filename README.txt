@@ -1,5 +1,5 @@
 File Read me:
 
-All'interno della cartella sono presenti tutti i file per l'esecuzione.
-Il file ReportMQTTbroker.pdf descrive il progetto e ciò che è stato implementato.
-Il file log.txt contiene la stampa dell'output dell'esecuzione per la verifica del funzionamento del programma.
+In the folder there are all the file for the execution.
+The file named ReportMQTTbroker.pdf describes the project and what we had implemented.
+The file log.txt is the print of the execution of the program.
