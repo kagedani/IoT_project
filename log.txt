@@ -1,0 +1,239 @@
+********************************************
+*                                          *
+*             TOSSIM Script                *
+*                                          *
+********************************************
+Initialization of mac...
+Initialization of radio channels....
+Topology used: Topology.txt
+Noise used: meyer-heavy.txt
+Initialization of simulator....
+Activate debug message on channel radio
+Creating node  0
+>>>This node is starting at  9 [sec]
+Creating node  1
+>>>This node is starting at  8 [sec]
+Creating node  2
+>>>This node is starting at  7 [sec]
+Creating node  3
+>>>This node is starting at  6 [sec]
+Creating node  4
+>>>This node is starting at  5 [sec]
+Creating node  5
+>>>This node is starting at  4 [sec]
+Creating node  6
+>>>This node is starting at  3 [sec]
+Creating node  7
+>>>This node is starting at  2 [sec]
+Creating node  8
+>>>This node is starting at  1 [sec]
+Creating radio channels...
+>>>Setting radio channel from node  0  to node  8  with gain  -10  dBm
+>>>Setting radio channel from node  1  to node  8  with gain  -10  dBm
+>>>Setting radio channel from node  2  to node  8  with gain  -10  dBm
+>>>Setting radio channel from node  3  to node  8  with gain  -10  dBm
+>>>Setting radio channel from node  4  to node  8  with gain  -10  dBm
+>>>Setting radio channel from node  5  to node  8  with gain  -10  dBm
+>>>Setting radio channel from node  6  to node  8  with gain  -10  dBm
+>>>Setting radio channel from node  7  to node  8  with gain  -10  dBm
+>>>Setting radio channel from node  8  to node  0  with gain  -10  dBm
+>>>Setting radio channel from node  8  to node  1  with gain  -10  dBm
+>>>Setting radio channel from node  8  to node  2  with gain  -10  dBm
+>>>Setting radio channel from node  8  to node  3  with gain  -10  dBm
+>>>Setting radio channel from node  8  to node  4  with gain  -10  dBm
+>>>Setting radio channel from node  8  to node  5  with gain  -10  dBm
+>>>Setting radio channel from node  8  to node  6  with gain  -10  dBm
+>>>Setting radio channel from node  8  to node  7  with gain  -10  dBm
+Initializing Closest Pattern Matching (CPM)...
+Reading noise model data file: meyer-heavy.txt
+Loading:##Done!
+>>>Creating noise model for node: 0
+>>>Creating noise model for node: 1
+>>>Creating noise model for node: 2
+>>>Creating noise model for node: 3
+>>>Creating noise model for node: 4
+>>>Creating noise model for node: 5
+>>>Creating noise model for node: 6
+>>>Creating noise model for node: 7
+>>>Creating noise model for node: 8
+Start simulation with TOSSIM! 
+
+
+
+DEBUG (8): Broker has been turned on.
+	Ready to receive connection requests.
+DEBUG (7): Timer fired at time: 0:0:3.660156260, re-asking for connection!
+DEBUG (7): Connection manager: my packet has been received, I'm asking for subscription...
+DEBUG (7): Asking for subscription...
+DEBUG (7): Subscribed with success.
+DEBUG (7): TOPIC 0
+DEBUG (7): QoS 0
+DEBUG (7): SORGENTE 7
+DEBUG (6): Timer fired at time: 0:0:4.562500010, re-asking for connection!
+DEBUG (6): Connection manager: my packet has been received, I'm asking for subscription...
+DEBUG (6): Asking for subscription...
+DEBUG (6): Subscribed with success.
+DEBUG (6): TOPIC 1
+DEBUG (6): QoS 1
+DEBUG (6): SORGENTE 6
+DEBUG (5): Timer fired at time: 0:0:5.464843760, re-asking for connection!
+DEBUG (5): Connection manager: my packet has been received, I'm asking for subscription...
+DEBUG (5): Asking for subscription...
+DEBUG (5): Subscribed with success.
+DEBUG (5): TOPIC 2
+DEBUG (5): QoS 0
+DEBUG (5): SORGENTE 5
+DEBUG (4): Timer fired at time: 0:0:6.367187510, re-asking for connection!
+DEBUG (4): Connection manager: my packet has been received, I'm asking for subscription...
+DEBUG (4): Asking for subscription...
+DEBUG (4): Subscribed with success.
+DEBUG (4): TOPIC 2
+DEBUG (4): QoS 1
+DEBUG (4): SORGENTE 4
+DEBUG (3): Timer fired at time: 0:0:7.269531260, re-asking for connection!
+DEBUG (3): Connection manager: my packet has been received, I'm asking for subscription...
+DEBUG (3): Asking for subscription...
+DEBUG (3): Subscribed with success.
+DEBUG (3): TOPIC 2
+DEBUG (3): QoS 0
+DEBUG (3): SORGENTE 3
+DEBUG (3): I'm subscribing to another topic.
+DEBUG (3): Asking for subscription...
+DEBUG (3): Subscribed with success.
+DEBUG (3): TOPIC 1
+DEBUG (3): QoS 0
+DEBUG (3): SORGENTE 3
+DEBUG (2): Timer fired at time: 0:0:8.171875010, re-asking for connection!
+DEBUG (2): Connection manager: my packet has been received, I'm asking for subscription...
+DEBUG (2): Asking for subscription...
+DEBUG (2): Subscribed with success.
+DEBUG (2): TOPIC 2
+DEBUG (2): QoS 1
+DEBUG (2): SORGENTE 2
+DEBUG (1): Timer fired at time: 0:0:9.074218760, re-asking for connection!
+DEBUG (1): Connection manager: my packet has been received, I'm asking for subscription...
+DEBUG (1): Asking for subscription...
+DEBUG (1): Subscribed with success.
+DEBUG (1): TOPIC 1
+DEBUG (1): QoS 0
+DEBUG (1): SORGENTE 1
+DEBUG (1): I'm subscribing to another topic.
+DEBUG (1): Asking for subscription...
+DEBUG (1): Subscribed with success.
+DEBUG (1): TOPIC 0
+DEBUG (1): QoS 0
+DEBUG (1): SORGENTE 1
+DEBUG (0): Timer fired at time: 0:0:9.976562510, re-asking for connection!
+DEBUG (0): Connection manager: my packet has been received, I'm asking for subscription...
+DEBUG (0): Asking for subscription...
+DEBUG (0): Subscribed with success.
+DEBUG (0): TOPIC 0
+DEBUG (0): QoS 1
+DEBUG (0): SORGENTE 0
+DEBUG (0): I'm subscribing to another topic.
+DEBUG (0): Asking for subscription...
+DEBUG (0): Subscribed with success.
+DEBUG (0): TOPIC 1
+DEBUG (0): QoS 1
+DEBUG (0): SORGENTE 0
+##############################
+DEBUG (0): Request to publish: success!
+DEBUG (0): TOPIC: 1
+DEBUG (0): SORGENTE 0
+##############################
+DEBUG (0): Request to publish acked: starting to sample data.
+DEBUG (0): Start timer for sampling data.
+DEBUG (0): Timer fired.
+DEBUG (0): Data read: 10
+DEBUG (0): Data sent to the broker for publication.
+DEBUG (8): Packet received successfully with value: 10
+Ready to forward the packet.
+SOURCE: 0
+TOPIC: 1
+VALUE: 10
+TYPE: 3
+############################
+Forwarding task.				time: 0
+############################
+DEBUG (8): Node 0, checking registration.
+DEBUG (8): Node 0 is the one publishing, no need to forward him.
+############################
+Forwarding task.				time: 1
+############################
+DEBUG (8): Node 1, checking registration.
+DEBUG (8): Failed forward.
+DEBUG (8): Forwarding failed in previous attempt, trying again.
+############################
+Forwarding task.				time: 1
+############################
+DEBUG (8): Node 1, checking registration.
+DEBUG (8): Forwarding: success!
+DEBUG (8): DESTINATION: 1
+DEBUG (8): SOURCE: 8
+DEBUG (8): Value: 10
+DEBUG (0): Packet with data to forward acked.
+############################
+DEBUG (8): Packet forwarded and acked.
+DEBUG (8): DESTINATION: 1
+############################
+############################
+Forwarding task.				time: 2
+############################
+DEBUG (8): Node 2, checking registration.
+DEBUG (8): Node 2, not registered.
+############################
+Forwarding task.				time: 3
+############################
+DEBUG (8): Node 3, checking registration.
+DEBUG (8): Failed forward.
+DEBUG (8): Forwarding failed in previous attempt, trying again.
+############################
+Forwarding task.				time: 3
+############################
+DEBUG (8): Node 3, checking registration.
+DEBUG (8): Forwarding: success!
+DEBUG (8): DESTINATION: 3
+DEBUG (8): SOURCE: 8
+DEBUG (8): Value: 10
+############################
+DEBUG (8): Packet forwarded and acked.
+DEBUG (8): DESTINATION: 3
+############################
+############################
+Forwarding task.				time: 4
+############################
+DEBUG (8): Node 4, checking registration.
+DEBUG (8): Node 4, not registered.
+############################
+Forwarding task.				time: 5
+############################
+DEBUG (8): Node 5, checking registration.
+DEBUG (8): Node 5, not registered.
+############################
+Forwarding task.				time: 6
+############################
+DEBUG (8): Node 6, checking registration.
+DEBUG (8): Failed forward.
+DEBUG (8): Forwarding failed in previous attempt, trying again.
+############################
+Forwarding task.				time: 6
+############################
+DEBUG (8): Node 6, checking registration.
+DEBUG (8): Forwarding: success!
+DEBUG (8): DESTINATION: 6
+DEBUG (8): SOURCE: 8
+DEBUG (8): Value: 10
+############################
+DEBUG (8): Packet forwarded and acked.
+DEBUG (8): DESTINATION: 6
+############################
+############################
+Forwarding task.				time: 7
+############################
+DEBUG (8): Node 7, checking registration.
+DEBUG (8): Node 7, not registered.
+DEBUG (8): Forwarded to all subscribed nodes.
+
+
+
+SIMULATION DONE!

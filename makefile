@@ -1,0 +1,2 @@
+COMPONENT=MQTTbrokerAppC
+include $(MAKERULES)
